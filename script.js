@@ -3,8 +3,14 @@ let storyHistory = [];
 function showOption1() {
     updateStory(`
         <p>Planets are fascinating celestial bodies. Did you know that Jupiter is so big that you could fit all the other planets inside it?</p>
-        <button onclick="showOption1A()">Learn about Mars</button>
-        <button onclick="showOption1B()">Learn about Venus</button>
+        <button onclick="mercury()">Mercury</button>
+        <button onclick="venus()">Venus</button>
+        <button onclick="earth()">Earth</button>
+        <button onclick="mars()">Mars</button>
+        <button onclick="jupiter()">Jupiter</button>
+        <button onclick="saturn()">Saturn</button>
+        <button onclick="uranus()">Uranus</button>
+        <button onclick="neptune()">Neptune</button>
         <button onclick="resetStory()">Start Page</button>
     `);
 }
@@ -12,13 +18,13 @@ function showOption1() {
 function showOption2() {
     updateStory(`
         <p>Stars are enormous glowing balls of gas. Did you know that the Sun is a star, and it is about 93 million miles away from Earth?</p>
-        <button onclick="showOption2A()">Learn about Supernovae</button>
-        <button onclick="showOption2B()">Learn about Neutron Stars</button>
+        <button onclick="showOption2A()">Supernovae</button>
+        <button onclick="showOption2B()">Neutron Stars</button>
         <button onclick="resetStory()">Start Page</button>
     `);
 }
 
-function showOption1A() {
+function mars() {
     updateStory(`
         <p>Mars is known as the Red Planet. It has the tallest volcano in the solar system, Olympus Mons.</p>
         <button onclick="resetStory()">Start Page</button>
@@ -26,7 +32,7 @@ function showOption1A() {
     `);
 }
 
-function showOption1B() {
+function venus() {
     updateStory(`
         <p>Venus is the hottest planet in our solar system. It has a thick atmosphere full of carbon dioxide.</p>
         <button onclick="resetStory()">Start Page</button>

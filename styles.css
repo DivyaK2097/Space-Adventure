@@ -2,22 +2,42 @@
 
 body{
     font-family: 'Trirong', sans-serif;
-    background-color: #081b2e;
+    /* background-color: #081b2e; */
+    background-image: url(Images/homePage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     text-align: center;
-    padding: 0;
-    margin: 0;
+ 
 }
 
-.container{
-    margin-top: 50px;
+/* .container{
+    margin-top: 15%;
+} */
+
+h1{
+    font-size: 100px;
+    color: #2f004e;
+    text-shadow: 2px 2px 8px #00f7ff;
+    animation: space;
+    animation-duration: 5s;
+}
+@keyframes space{
+    from{margin-top: 100px;}
+    to{margin-bottom: 0px;}
+}
+
+p{
+    font-size: 30px;
+    color: #180202;
+    text-shadow: 2px 2px 8px #00ffff;
 }
 
 button{
     font-family: 'Jaro';
-    background-color: #2391ff;
+    background-color: #a723ff;
     border: none;
-    color:antiquewhite;
+    color:rgb(255, 246, 234);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
